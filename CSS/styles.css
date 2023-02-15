@@ -16,6 +16,7 @@ h2 {
     color: #DA0037;
     font-size: 2.5rem;
     font-weight: normal;
+    padding: 10px;
 }
 
 h3 {
@@ -30,6 +31,7 @@ a {
 
 p {
     color: #171717;
+    line-height: 2;
 }
 
 hr {
@@ -48,22 +50,24 @@ hr {
 
 .middle-container {
     background-color: #EDEDED;
+    padding: 100px 0;
 }
 
 .bottom-container {
     background-color: #DA0037;
-    padding-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 120px;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 250px;
+    left: 120px;
     bottom: 200px;;
 
 }
@@ -71,7 +75,7 @@ hr {
 .me {
     display: inline-block;
     margin: 20px 20px 0px 20px;
-    height: 100px;
+    height: 150px;
 }
 
 .mountain {
@@ -82,7 +86,6 @@ hr {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .app-development {
@@ -112,10 +115,10 @@ hr {
     background-image: -ms-linear-gradient(top, #DA0037, #780d2a);
     background-image: -o-linear-gradient(top, #DA0037, #780d2a);
     background-image: linear-gradient(to bottom, #DA0037, #780d2a);
-    -webkit-border-radius: 30;
-    -moz-border-radius: 30;
-    border-radius: 30px;
-    font-family: Arial;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -136,4 +139,22 @@ hr {
   .footer-link {
     display: inline-block;
     margin: 10px 10px 10px 10px;
+    text-decoration: none;
+  }
+
+  .footer-link:hover {
+    color: #171717;
+  }
+
+  .intro {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .outro {
+    width: 50%;
+    padding-top: 10px;
+    margin: 0 auto 0 auto;
+    width: 50%;
   }
